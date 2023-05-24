@@ -28,8 +28,8 @@ const Banner = () => {
       <div className={styles.sub_container}>
         <div className={styles.sub_section1}>
           <div className={styles.sub_logo}>
-            <h2>OUR FUTURE WITH WEB3</h2>
-            <img src={blue_arrow} alt="/" />
+            <h2 className={styles.heading}>OUR FUTURE WITH WEB3</h2>
+            <img className={styles.sub_img} src={blue_arrow} alt="/" />
           </div>
           <div className={styles.main_title}>
             <div className={styles.sub_logo}>
@@ -37,7 +37,7 @@ const Banner = () => {
                 Technologies have the potential to revolutionize many industries
                 and aspects of our live
               </p>
-              <img src={blue_logo} size={2} alt="/" />
+              <img src={blue_logo} size={5} alt="/" />
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Banner = () => {
         <div className={styles.sub_section2}>
           <div className={styles.sub_logo}>
             <h2>WEB3, ETHEREUM AND OTHER BLOCKCHAIN NETWORKS</h2>
-            <img src={yellow_arrow} alt="/" />
+            <img className={styles.secondary_img} src={yellow_arrow} alt="/" />
           </div>
           <div className={styles.main_title}>
             <div className={styles.sub_logo}>
