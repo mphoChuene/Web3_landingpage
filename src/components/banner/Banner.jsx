@@ -15,12 +15,12 @@ const Banner = () => {
           <h1>EXPLORING WEB3 TECHNOLOGY</h1>
         </div>
         <div className={styles.sub_logo}>
-          <p>
-            it is an umbrella term that encompasses various technologies and
-            protocols that aim to create a more open, transparent, and
-            decentralized web
+          <p className={styles.sub_para}>
+            it is an umbrella term that encompasses various <br /> technologies
+            and protocols that aim to create a <br /> more open, transparent,
+            and decentralized web
           </p>
-          <img src={main_logo} alt="" />
+          <img src={main_logo} className={styles.main_img} alt="" />
         </div>
       </div>
 
