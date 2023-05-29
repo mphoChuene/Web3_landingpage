@@ -154,13 +154,22 @@ img{
     .main_section{
     position: relative;
     top: 0;
-    left: 0;    
+    left: 0;
+    scale: .95;
+    }
+    .main_section h1{
+        font-size: 40px;
     }
 
     .sub_container{
        position: relative;
        top: 0;
        left: 0;
+    }
+
+    .sub_section1, .sub_section2{
+        position: relative;
+        bottom:50px;
     }
     
 }
