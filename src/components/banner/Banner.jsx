@@ -28,14 +28,16 @@ const Banner = () => {
       <div className={styles.sub_container}>
         <div className={styles.sub_section1}>
           <div className={styles.sub_logo}>
-            <h2 className={styles.heading}>OUR FUTURE WITH WEB3</h2>
+            <h2 className={styles.heading}>
+              OUR FUTURE <br /> WITH WEB3
+            </h2>
             <img className={styles.sub_img} src={blue_arrow} alt="/" />
           </div>
           <div className={styles.main_title}>
             <div className={styles.sub_logo}>
               <p>
-                Technologies have the potential to revolutionize many industries
-                and aspects of our live
+                Technologies have the potential to <br /> revolutionize many
+                industries and <br /> aspects of our live
               </p>
               <img src={blue_logo} size={5} alt="/" />
             </div>
@@ -50,8 +52,9 @@ const Banner = () => {
           <div className={styles.main_title}>
             <div className={styles.sub_logo}>
               <p>
-                Web3 is a set of tools and protocols that allow decentralized
-                applications to interact with the blockchain
+                Web3 is a set of tools and protocols that <br /> allow
+                decentralized applications to <br /> interact with the
+                blockchain
               </p>
               <img src={yellow_logo} alt="/" />
             </div>

@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@400;600&display=swap');
+
+
+h2{
+    font-weight: 100;
+}
+
+h1{
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
 .container{
     display: flex;
+    position: relative;
+    left: 50px;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -29,8 +43,7 @@
 }
 
 .main_title{
-    font-size: 20px;
-    padding: 20px 30px 80px 5px;
+    padding: 10px 30px 90px 5px;
 }
 
 .main_section .sub_logo{
@@ -39,7 +52,7 @@
 }
 
 .main_title h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .sub_container{
@@ -47,8 +60,8 @@
     flex-direction: column;
     height: auto;
     position: relative;
-    right: 27px;
-    scale: .90;
+    right: 37px;
+    scale: .87;
 }
 
 .sub_section1, .sub_section2{
@@ -91,8 +104,13 @@
     left: -7px;
 }
 
+.sub_logo h2{
+    position: relative;
+    left: 15px;
+}
+
 .sub_logo .heading{
-    left: -35px;
+    left: -10px;
     margin-right: 45px;
 }
 
@@ -146,7 +164,8 @@ img{
 
 @media screen and (max-width: 720px) {
     .container{
-        position: absolute;
+        position: relative;
+        left: -2px;
         display: flex;
         flex-direction: column;
     }
@@ -158,9 +177,13 @@ img{
     scale: .95;
     }
     .main_section h1{
-        font-size: 40px;
+        font-size: 30px;
     }
 
+    .sub_logo{
+        scale: .95;
+    }
+  
     .sub_container{
        position: relative;
        top: 0;
@@ -172,4 +195,7 @@ img{
         bottom:50px;
     }
     
+    .sub_section2{
+        margin-top:20px ;
+    }
 }
